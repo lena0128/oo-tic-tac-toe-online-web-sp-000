@@ -122,7 +122,7 @@ elsif @board[won?[0]] == "X"
 end
 
 def play
-  while !over && !won? && !draw
+  while !over? && !won? && !draw?
     turn
 end
 
