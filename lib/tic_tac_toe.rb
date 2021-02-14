@@ -101,4 +101,12 @@ def draw?
   !won? && full?
 end
 
+def over?
+  if draw? || won?
+    return true
+  else
+    false
+  end
+end
+
 end
