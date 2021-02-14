@@ -122,8 +122,10 @@ elsif @board[won?[0]] == "X"
 end
 
 def play
-  while !over? && !won? && !draw?
+  if !over? && !won? && !draw?
     turn
+  elsif won?
+    puts "Conguralations the winner is #{winner}"
   end
 end
 
