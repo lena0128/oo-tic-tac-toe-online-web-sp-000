@@ -127,7 +127,7 @@ def play
   end
 
   if won?
-    puts "Conguralations #{winner}!"
+    puts "Congratulations #{winner}!"
   end
 
   if draw?
