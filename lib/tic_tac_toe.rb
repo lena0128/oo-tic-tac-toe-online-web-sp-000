@@ -127,7 +127,7 @@ def play
   end
 
   if won?
-    puts "Conguralations #{winner}"
+    puts "Conguralations the winner #{winner}"
   end
 
   if draw?
