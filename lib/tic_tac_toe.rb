@@ -87,7 +87,6 @@ def won?
       @board[win[0]] == "O" && @board[win[1]] == "O" && @board[win[2]] == "O"
       return win
     end
-  end
     return false
   end
 
