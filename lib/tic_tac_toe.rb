@@ -117,8 +117,8 @@ def winner
     return "O"
   elsif
     draw? || !full? && !won?
-
     return nil
+end
 end
 
 end
