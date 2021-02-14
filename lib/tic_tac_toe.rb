@@ -124,6 +124,7 @@ end
 def play
   while !over? && !won? && !draw?
     turn
+  end
 end
 
 end
