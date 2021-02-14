@@ -126,6 +126,8 @@ def play
     turn
   elsif won?
     puts "Conguralations the winner is #{winner}"
+  elsif draw?
+    puts "It is a draw!"
   end
 end
 
