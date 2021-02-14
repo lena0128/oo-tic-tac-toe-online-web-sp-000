@@ -60,10 +60,8 @@ end
 
 
 def full?
-  if turn_count == 9
-    true
-  else
-    false
+  @board.all? do |board|
+    board == "X" || board == "O"
   end
 end
 
