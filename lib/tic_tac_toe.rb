@@ -61,12 +61,12 @@ end
 def current_player
   if turn_count % 2 == 0
     "X"
-  elsif 
+  elsif
     turn_count % 2 == 1
     "O"
   end
 end
-    
+
 
 def full?
   @board.all? do |board|
