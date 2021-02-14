@@ -125,7 +125,7 @@ def play
   while !over? && !won? && !draw?
     turn
   end
-  
+
   if won?
     puts "Conguralations #{winner}"
   end
