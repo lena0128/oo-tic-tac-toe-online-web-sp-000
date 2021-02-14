@@ -110,13 +110,14 @@ def over?
 end
 
 def winner
-
   if won?[0] == "X"
     return "X"
   elsif
     won?[0] == "O"
     return "O"
-  end
+  elsif
+    draw? || !full? && !won?
+
     return nil
 end
 
