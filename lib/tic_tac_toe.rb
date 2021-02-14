@@ -113,7 +113,7 @@ def winner
   if
     draw? || !full? && !won?
     return nil
-elsif won?[0] == "X"
+elsif @board[won?[0]] == "X"
     return "X"
   elsif
     won?[0] == "O"
