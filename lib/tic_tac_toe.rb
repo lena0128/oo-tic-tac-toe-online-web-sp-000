@@ -128,11 +128,11 @@ def play
   if won?
     puts "Conguralations #{winner}"
   end
-  
+
   if draw?
     puts "Cat's Game!"
   end
-  
+
 end
 
 end
