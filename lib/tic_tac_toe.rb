@@ -109,4 +109,16 @@ def over?
   end
 end
 
+def winner
+  if draw? || !full? || !won?
+    return nil
+  elsif 
+    @board[won?(board[0])] == "X"
+    return "X is the winner!"
+  elsif    
+    @board[won?(board[0])] == "O"
+    return "O is the winner!"
+  end
+end
+
 end
