@@ -126,7 +126,7 @@ def play
     turn
   end
   if won?
-    puts "Conguralations #{winner}"
+    puts "Conguralations #{winner(@board)}"
   end
 
   if draw?
