@@ -112,8 +112,7 @@ end
 def winner
   if draw? || !full? || !won?
     return nil
-  elsif
-    won?(win[0]) == "X"
+  elsif (board[won?(board)[0]] == "X")
     return "X"
   elsif
     won?(board[0]) == "O"
