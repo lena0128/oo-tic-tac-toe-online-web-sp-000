@@ -114,10 +114,10 @@ def winner
     return nil
   elsif
     @board[won?(board[0])] == "X"
-    return "X is the winner!"
+    return "X"
   elsif
     @board[won?(board[0])] == "O"
-    return "O is the winner!"
+    return "O"
   end
 end
 
