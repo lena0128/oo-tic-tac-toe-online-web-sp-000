@@ -125,14 +125,14 @@ def play
   while !over? && !won? && !draw?
     turn
   end
+  
   if won?
-    puts "Conguralations #{winner(@board)}"
+    puts "Conguralations #{winner}"
   end
 
   if draw?
     puts "Cat's Game!"
   end
-
 end
 
 end
