@@ -91,11 +91,6 @@ def won?
     return false
   end
 
-
-
-end
-
-
 def full?
   @board.all? do |board|
     board == "X" || board == "O"
