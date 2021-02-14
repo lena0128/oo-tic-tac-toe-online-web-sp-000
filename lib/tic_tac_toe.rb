@@ -116,7 +116,7 @@ def winner
 elsif @board[won?[0]] == "X"
     return "X"
   elsif
-    won?[0] == "O"
+    @board[won?[0]] == "O"
     return "O"
   end
 end
