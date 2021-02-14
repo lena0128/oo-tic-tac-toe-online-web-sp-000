@@ -60,6 +60,11 @@ end
 
 
 def full?
-  turn_count == 9
+  if turn_count == 9
+    true
+  else
+    false
+  end
+end
 
 end
