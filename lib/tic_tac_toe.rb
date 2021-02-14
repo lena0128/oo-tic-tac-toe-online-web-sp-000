@@ -110,7 +110,7 @@ def over?
 end
 
 def winner
-  if draw? || !full? || !won?
+  if draw? || !full?
     return nil
   elsif won?[0] == "X"
     return "X"
